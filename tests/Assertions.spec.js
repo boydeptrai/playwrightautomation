@@ -1,7 +1,5 @@
 const {test, expect} = require("@playwright/test");
-const { timeLog } = require("console");
-const exp = require("constants");
-const path = require("path");
+
 
 test('AssertionTest', async({page}) => {
     //Open app url
